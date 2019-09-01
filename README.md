@@ -1,6 +1,4 @@
-#EXTM3U 
-
-http://m3u.iptvstreaming.org:25461/mankum22003@gmail.com/h075kjw056ysfaxt7sx4/159
+#EXTM3U
 #EXTINF:-1 tvg-id="" tvg-name="Beate-Uhse TV" tvg-logo="" group-title="XXX ADULTI",Beate-Uhse TV
 http://m3u.iptvstreaming.org:25461/mankum22003@gmail.com/h075kjw056ysfaxt7sx4/14493
 #EXTINF:-1 tvg-id="" tvg-name="Brazzers TV" tvg-logo="" group-title="XXX ADULTI",Brazzers TV
@@ -91,3 +89,12 @@ http://m3u.iptvstreaming.org:25461/mankum22003@gmail.com/h075kjw056ysfaxt7sx4/28
 http://m3u.iptvstreaming.org:25461/mankum22003@gmail.com/h075kjw056ysfaxt7sx4/1235
 #EXTINF:-1 tvg-id="" tvg-name="Visit-x Live" tvg-logo="" group-title="XXX ADULTI",Visit-x Live
 http://m3u.iptvstreaming.org:25461/mankum22003@gmail.com/h075kjw056ysfaxt7sx4/284
+
+
+
+
+
+
+
+
+
