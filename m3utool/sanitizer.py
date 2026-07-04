@@ -67,8 +67,9 @@ class _SecretStore:
             suffix += 1
             name = f"{base}_{suffix}"
         self.secrets[name] = value
-        self.by_value[cache_key] = name
-        return f"${{{name}}}"
+        placeholder = f"${{{name}}}"
+        self.by_value[cache_key] = placeholder
+        return placeholder
 
 
 def _sanitize_url(url: str, store: _SecretStore, path_credentials: int) -> tuple[str, int]:
