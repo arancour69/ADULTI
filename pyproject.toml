@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "m3utool"
+version = "0.1.0"
+description = "Generic, content-agnostic M3U playlist toolkit: parse, validate, sanitize, format and check."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "arancour69" }]
+keywords = ["m3u", "m3u8", "iptv", "playlist", "cli"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Multimedia :: Video",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.1"]
+
+[project.scripts]
+m3utool = "m3utool.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/arancour69/ADULTI"
+
+[tool.setuptools]
+packages = ["m3utool"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
